@@ -75,9 +75,11 @@
     
     // 2.设置窗口的根控制器
     // 显示状态栏
-    iCocosTabBarController *tabBarVC = [[iCocosTabBarController alloc] init];
-    window.rootViewController = tabBarVC;
-    tabBarVC.selectedIndex = 0;
+    //        iCocosTabBarController *tabBarVC = [[iCocosTabBarController alloc] init];
+    //        self.window.rootViewController = tabBarVC;
+    //        tabBarVC.selectedIndex = 0;
+    
+    [iCocosSwitchInterfaceHandler switchInterfaceToWindow:window];
     
 }
 

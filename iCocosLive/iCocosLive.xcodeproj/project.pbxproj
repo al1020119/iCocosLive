@@ -126,6 +126,7 @@
 		716436591DC3356C007A0F26 /* WZXLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436561DC3356C007A0F26 /* WZXLaunchAd.m */; };
 		7164365A1DC3356C007A0F26 /* WZXLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436581DC3356C007A0F26 /* WZXLaunchViewController.m */; };
 		7164365D1DC335E4007A0F26 /* HomeAddShowWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7164365C1DC335E4007A0F26 /* HomeAddShowWebViewController.m */; };
+		716436601DC33C13007A0F26 /* iCocosSwitchInterfaceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7164365F1DC33C13007A0F26 /* iCocosSwitchInterfaceHandler.m */; };
 		FE642799E6AEE43CC21AE295 /* libPods-iCocosLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C836516188CE3FE57DF6398 /* libPods-iCocosLive.a */; };
 /* End PBXBuildFile section */
 
@@ -366,6 +367,9 @@
 		716436581DC3356C007A0F26 /* WZXLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZXLaunchViewController.m; sourceTree = "<group>"; };
 		7164365B1DC335E4007A0F26 /* HomeAddShowWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeAddShowWebViewController.h; sourceTree = "<group>"; };
 		7164365C1DC335E4007A0F26 /* HomeAddShowWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeAddShowWebViewController.m; sourceTree = "<group>"; };
+		7164365E1DC33C13007A0F26 /* iCocosSwitchInterfaceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCocosSwitchInterfaceHandler.h; path = ../../../../../../../../../../Documents/iCocosSwitchInterfaceHandler.h; sourceTree = "<group>"; };
+		7164365F1DC33C13007A0F26 /* iCocosSwitchInterfaceHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iCocosSwitchInterfaceHandler.m; path = ../../../../../../../../../../Documents/iCocosSwitchInterfaceHandler.m; sourceTree = "<group>"; };
+		716436621DC33CCB007A0F26 /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
 		7DA126B530AB0BB1C9E33CAA /* Pods-iCocosLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCocosLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCocosLive/Pods-iCocosLive.release.xcconfig"; sourceTree = "<group>"; };
 		9C836516188CE3FE57DF6398 /* libPods-iCocosLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iCocosLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B9C86CBC4FD6FA7513DB03 /* Pods-iCocosLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCocosLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCocosLive/Pods-iCocosLive.debug.xcconfig"; sourceTree = "<group>"; };
@@ -460,6 +464,7 @@
 		7103ECF31DC2F2200050F2A0 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				716436611DC33C93007A0F26 /* Single */,
 				7103ECF41DC2F2200050F2A0 /* Categories */,
 				7103ECF51DC2F2200050F2A0 /* Tools */,
 			);
@@ -476,6 +481,8 @@
 		7103ECF51DC2F2200050F2A0 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				7164365E1DC33C13007A0F26 /* iCocosSwitchInterfaceHandler.h */,
+				7164365F1DC33C13007A0F26 /* iCocosSwitchInterfaceHandler.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -939,6 +946,14 @@
 			path = Add;
 			sourceTree = "<group>";
 		};
+		716436611DC33C93007A0F26 /* Single */ = {
+			isa = PBXGroup;
+			children = (
+				716436621DC33CCB007A0F26 /* Single.h */,
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
 		EB6BFA1B8F00FD5138C712AF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1142,6 +1157,7 @@
 				7103EE1D1DC2F8860050F2A0 /* UIControl+RACSignalSupport.m in Sources */,
 				7103EDE01DC2F8860050F2A0 /* NSSet+RACSequenceAdditions.m in Sources */,
 				7103EE201DC2F8860050F2A0 /* UIGestureRecognizer+RACSignalSupport.m in Sources */,
+				716436601DC33C13007A0F26 /* iCocosSwitchInterfaceHandler.m in Sources */,
 				7103EE1B1DC2F8860050F2A0 /* UIButton+RACCommandSupport.m in Sources */,
 				7103ED091DC2F2200050F2A0 /* AppDelegate.m in Sources */,
 				7103EDEB1DC2F8860050F2A0 /* RACCompoundDisposable.m in Sources */,

@@ -32,6 +32,14 @@
  */
 #import "ReactiveCocoa.h"
 
+
+
+/**
+ *  自定义
+ */
+#import "Single.h"
+#import "iCocosSwitchInterfaceHandler.h"
+
 /**
  *  日志输出
  */

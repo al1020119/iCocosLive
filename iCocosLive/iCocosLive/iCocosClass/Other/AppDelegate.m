@@ -24,7 +24,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+    
     // 1.创建窗口
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
@@ -35,22 +35,23 @@
         //如果当前控制器,与保存版本控制器相同
         BOOL shouldShow = [WSMovieController sr_shouldShowNewFeature];
         if (shouldShow) {
+            
             //是第一次
             WSMovieController *wsCtrl = [[WSMovieController alloc]init];
             wsCtrl.movieURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"qidong"ofType:@"mp4"]];
             self.window.rootViewController = wsCtrl;
             [[NSUserDefaults standardUserDefaults] setObject:@"YES" forKey:@"isFirstLogin"];
         } else {
+            
             // 2.设置窗口的根控制器
-            // 显示状态栏
-            iCocosTabBarController *tabBarVC = [[iCocosTabBarController alloc] init];
-            self.window.rootViewController = tabBarVC;
-            tabBarVC.selectedIndex = 0;
+            [iCocosSwitchInterfaceHandler switchInterfaceToWindow:self.window];
         }
     } else if ([show isEqualToString:@"1"]) {
+        
         //如果当前控制器,与保存版本控制器相同
         BOOL shouldShow = [SRNewFeaturesViewController sr_shouldShowNewFeature];
         if (shouldShow) {
+            
             iCocosTabBarController *viewCtrl = [[iCocosTabBarController alloc]init];
             NSArray *imageNames = @[@"newfeature1.png", @"newfeature2.png", @"newfeature3.png"];
             SRNewFeaturesViewController *newFeaturesVC = [SRNewFeaturesViewController sr_newFeatureWithImageNames:imageNames
@@ -58,28 +59,20 @@
             newFeaturesVC.hideSkipButton = NO; // show skip Button
             self.window.rootViewController = newFeaturesVC;
         } else {
+            
             // 2.设置窗口的根控制器
-            // 显示状态栏
-            iCocosTabBarController *tabBarVC = [[iCocosTabBarController alloc] init];
-            self.window.rootViewController = tabBarVC;
-            tabBarVC.selectedIndex = 0;
+            [iCocosSwitchInterfaceHandler switchInterfaceToWindow:self.window];
         }
-        
     }  else if ([show isEqualToString:@"2"]) {
         
-        
         NSString *gifImageURL = @"http://img1.gamedog.cn/2013/06/03/43-130603140F30.gif";
-        
-//        NSString *imageURL = @"http://img4.duitang.com/uploads/item/201410/24/20141024135636_t2854.thumb.700_0.jpeg";
-        
+        //NSString *imageURL = @"http://img4.duitang.com/uploads/item/201410/24/20141024135636_t2854.thumb.700_0.jpeg";
         ///设置启动页
         [WZXLaunchViewController showWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height) ImageURL:gifImageURL advertisingURL:@"http://www.jianshu.com/p/7205047eadf7" timeSecond:10 hideSkip:YES imageLoadGood:^(UIImage *image, NSString *imageURL) {
+            
             /// 广告加载结束
             NSLog(@"%@ %@",image,imageURL);
-            
         } clickImage:^(UIViewController *WZXlaunchVC){
-            
-            /// 点击广告
             
             //2.在webview中打开
             HomeAddShowWebViewController *VC = [[HomeAddShowWebViewController alloc] init];
@@ -88,29 +81,19 @@
             VC.AppDelegateSele= -1;
             UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:VC];
             [WZXlaunchVC presentViewController:nav animated:YES completion:nil];
-            
-            
         } theAdEnds:^{
             
             // 2.设置窗口的根控制器
-            // 显示状态栏
-            iCocosTabBarController *tabBarVC = [[iCocosTabBarController alloc] init];
-            self.window.rootViewController = tabBarVC;
-            tabBarVC.selectedIndex = 0;
+            [iCocosSwitchInterfaceHandler switchInterfaceToWindow:self.window];
         }];
-
     } else {
-        // 2.设置窗口的根控制器
-        // 显示状态栏
-        iCocosTabBarController *tabBarVC = [[iCocosTabBarController alloc] init];
-        self.window.rootViewController = tabBarVC;
-        tabBarVC.selectedIndex = 0;
         
+        // 2.设置窗口的根控制器
+        [iCocosSwitchInterfaceHandler switchInterfaceToWindow:self.window];
     }
     
     // 3.显示窗口
     [self.window makeKeyAndVisible];
-    
     
     return YES;
 }
@@ -166,7 +149,7 @@
                      * The device is out of space.
                      * The store could not be migrated to the current model version.
                      Check the error message to determine what the actual problem was.
-                    */
+                     */
                     NSLog(@"Unresolved error %@, %@", error, error.userInfo);
                     abort();
                 }
