@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "iCocosTabBarController.h"
+#import "iCocosNormalTabBarController.h"
 
 #import "WSMovieController.h"
 
@@ -52,7 +52,7 @@
         BOOL shouldShow = [SRNewFeaturesViewController sr_shouldShowNewFeature];
         if (shouldShow) {
             
-            iCocosTabBarController *viewCtrl = [[iCocosTabBarController alloc]init];
+            iCocosNormalTabBarController *viewCtrl = [[iCocosNormalTabBarController alloc]init];
             NSArray *imageNames = @[@"newfeature1.png", @"newfeature2.png", @"newfeature3.png"];
             SRNewFeaturesViewController *newFeaturesVC = [SRNewFeaturesViewController sr_newFeatureWithImageNames:imageNames
                                                                                                rootViewController:viewCtrl];

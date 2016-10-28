@@ -10,7 +10,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import <AVKit/AVKit.h>
-#import "iCocosTabBarController.h"
+#import "iCocosNormalTabBarController.h"
 
 @interface WSMovieController ()
 @property (strong, nonatomic) MPMoviePlayerController *player;

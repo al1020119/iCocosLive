@@ -115,18 +115,18 @@
 		716436331DC328F5007A0F26 /* newfeature3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 716436311DC328F5007A0F26 /* newfeature3@3x.png */; };
 		716436361DC32973007A0F26 /* start_huanshi_AR_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 716436341DC32973007A0F26 /* start_huanshi_AR_normal@2x.png */; };
 		716436371DC32973007A0F26 /* start_huanshi_AR_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 716436351DC32973007A0F26 /* start_huanshi_AR_normal@3x.png */; };
-		716436411DC32CDB007A0F26 /* iCocosTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436401DC32CDB007A0F26 /* iCocosTabBarController.m */; };
 		716436441DC32CEA007A0F26 /* UITabBar+iCocosTabBarBadgeTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436431DC32CEA007A0F26 /* UITabBar+iCocosTabBarBadgeTips.m */; };
-		716436491DC32CF4007A0F26 /* iCocosTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436461DC32CF4007A0F26 /* iCocosTabButton.m */; };
-		7164364A1DC32CF4007A0F26 /* iCocosTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436481DC32CF4007A0F26 /* iCocosTabView.m */; };
-		7164364D1DC32CFF007A0F26 /* iCocosNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7164364C1DC32CFF007A0F26 /* iCocosNavigationController.m */; };
 		7164364F1DC332D9007A0F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7164364E1DC332D9007A0F26 /* LaunchScreen.storyboard */; };
 		716436511DC332E0007A0F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716436501DC332E0007A0F26 /* Main.storyboard */; };
-		716436541DC3344D007A0F26 /* iCocosMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436531DC3344D007A0F26 /* iCocosMainViewController.m */; };
 		716436591DC3356C007A0F26 /* WZXLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436561DC3356C007A0F26 /* WZXLaunchAd.m */; };
 		7164365A1DC3356C007A0F26 /* WZXLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436581DC3356C007A0F26 /* WZXLaunchViewController.m */; };
 		7164365D1DC335E4007A0F26 /* HomeAddShowWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7164365C1DC335E4007A0F26 /* HomeAddShowWebViewController.m */; };
 		716436601DC33C13007A0F26 /* iCocosSwitchInterfaceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7164365F1DC33C13007A0F26 /* iCocosSwitchInterfaceHandler.m */; };
+		7164366B1DC3589A007A0F26 /* iCocosNormalTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436651DC3589A007A0F26 /* iCocosNormalTabBarController.m */; };
+		7164366C1DC3589A007A0F26 /* iCocosNormalTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436671DC3589A007A0F26 /* iCocosNormalTabBarButton.m */; };
+		7164366D1DC3589A007A0F26 /* iCocosNormalTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436691DC3589A007A0F26 /* iCocosNormalTabBarView.m */; };
+		716436721DC35951007A0F26 /* iCocosMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7164366F1DC35951007A0F26 /* iCocosMainViewController.m */; };
+		716436731DC35951007A0F26 /* iCocosNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716436711DC35951007A0F26 /* iCocosNavigationController.m */; };
 		FE642799E6AEE43CC21AE295 /* libPods-iCocosLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C836516188CE3FE57DF6398 /* libPods-iCocosLive.a */; };
 /* End PBXBuildFile section */
 
@@ -347,20 +347,10 @@
 		716436311DC328F5007A0F26 /* newfeature3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newfeature3@3x.png"; sourceTree = "<group>"; };
 		716436341DC32973007A0F26 /* start_huanshi_AR_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start_huanshi_AR_normal@2x.png"; sourceTree = "<group>"; };
 		716436351DC32973007A0F26 /* start_huanshi_AR_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start_huanshi_AR_normal@3x.png"; sourceTree = "<group>"; };
-		7164363F1DC32CDB007A0F26 /* iCocosTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosTabBarController.h; sourceTree = "<group>"; };
-		716436401DC32CDB007A0F26 /* iCocosTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosTabBarController.m; sourceTree = "<group>"; };
 		716436421DC32CEA007A0F26 /* UITabBar+iCocosTabBarBadgeTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+iCocosTabBarBadgeTips.h"; sourceTree = "<group>"; };
 		716436431DC32CEA007A0F26 /* UITabBar+iCocosTabBarBadgeTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+iCocosTabBarBadgeTips.m"; sourceTree = "<group>"; };
-		716436451DC32CF4007A0F26 /* iCocosTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosTabButton.h; sourceTree = "<group>"; };
-		716436461DC32CF4007A0F26 /* iCocosTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosTabButton.m; sourceTree = "<group>"; };
-		716436471DC32CF4007A0F26 /* iCocosTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosTabView.h; sourceTree = "<group>"; };
-		716436481DC32CF4007A0F26 /* iCocosTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosTabView.m; sourceTree = "<group>"; };
-		7164364B1DC32CFF007A0F26 /* iCocosNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosNavigationController.h; sourceTree = "<group>"; };
-		7164364C1DC32CFF007A0F26 /* iCocosNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosNavigationController.m; sourceTree = "<group>"; };
 		7164364E1DC332D9007A0F26 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		716436501DC332E0007A0F26 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		716436521DC3344D007A0F26 /* iCocosMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosMainViewController.h; sourceTree = "<group>"; };
-		716436531DC3344D007A0F26 /* iCocosMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosMainViewController.m; sourceTree = "<group>"; };
 		716436551DC3356C007A0F26 /* WZXLaunchAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXLaunchAd.h; sourceTree = "<group>"; };
 		716436561DC3356C007A0F26 /* WZXLaunchAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZXLaunchAd.m; sourceTree = "<group>"; };
 		716436571DC3356C007A0F26 /* WZXLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXLaunchViewController.h; sourceTree = "<group>"; };
@@ -370,6 +360,16 @@
 		7164365E1DC33C13007A0F26 /* iCocosSwitchInterfaceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCocosSwitchInterfaceHandler.h; path = ../../../../../../../../../../Documents/iCocosSwitchInterfaceHandler.h; sourceTree = "<group>"; };
 		7164365F1DC33C13007A0F26 /* iCocosSwitchInterfaceHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iCocosSwitchInterfaceHandler.m; path = ../../../../../../../../../../Documents/iCocosSwitchInterfaceHandler.m; sourceTree = "<group>"; };
 		716436621DC33CCB007A0F26 /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		716436641DC3589A007A0F26 /* iCocosNormalTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosNormalTabBarController.h; sourceTree = "<group>"; };
+		716436651DC3589A007A0F26 /* iCocosNormalTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosNormalTabBarController.m; sourceTree = "<group>"; };
+		716436661DC3589A007A0F26 /* iCocosNormalTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosNormalTabBarButton.h; sourceTree = "<group>"; };
+		716436671DC3589A007A0F26 /* iCocosNormalTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosNormalTabBarButton.m; sourceTree = "<group>"; };
+		716436681DC3589A007A0F26 /* iCocosNormalTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosNormalTabBarView.h; sourceTree = "<group>"; };
+		716436691DC3589A007A0F26 /* iCocosNormalTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosNormalTabBarView.m; sourceTree = "<group>"; };
+		7164366E1DC35951007A0F26 /* iCocosMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosMainViewController.h; sourceTree = "<group>"; };
+		7164366F1DC35951007A0F26 /* iCocosMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosMainViewController.m; sourceTree = "<group>"; };
+		716436701DC35951007A0F26 /* iCocosNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosNavigationController.h; sourceTree = "<group>"; };
+		716436711DC35951007A0F26 /* iCocosNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosNavigationController.m; sourceTree = "<group>"; };
 		7DA126B530AB0BB1C9E33CAA /* Pods-iCocosLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCocosLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-iCocosLive/Pods-iCocosLive.release.xcconfig"; sourceTree = "<group>"; };
 		9C836516188CE3FE57DF6398 /* libPods-iCocosLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iCocosLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B9C86CBC4FD6FA7513DB03 /* Pods-iCocosLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCocosLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iCocosLive/Pods-iCocosLive.debug.xcconfig"; sourceTree = "<group>"; };
@@ -847,6 +847,8 @@
 		716436141DC32776007A0F26 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				716436631DC3589A007A0F26 /* ArchitectureNormal */,
+				7164366A1DC3589A007A0F26 /* ArchitectureSpecial */,
 				716436151DC32776007A0F26 /* Controller */,
 				716436161DC32776007A0F26 /* Model */,
 				716436171DC32776007A0F26 /* Tools */,
@@ -858,12 +860,10 @@
 		716436151DC32776007A0F26 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7164363F1DC32CDB007A0F26 /* iCocosTabBarController.h */,
-				716436401DC32CDB007A0F26 /* iCocosTabBarController.m */,
-				7164364B1DC32CFF007A0F26 /* iCocosNavigationController.h */,
-				7164364C1DC32CFF007A0F26 /* iCocosNavigationController.m */,
-				716436521DC3344D007A0F26 /* iCocosMainViewController.h */,
-				716436531DC3344D007A0F26 /* iCocosMainViewController.m */,
+				7164366E1DC35951007A0F26 /* iCocosMainViewController.h */,
+				7164366F1DC35951007A0F26 /* iCocosMainViewController.m */,
+				716436701DC35951007A0F26 /* iCocosNavigationController.h */,
+				716436711DC35951007A0F26 /* iCocosNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -890,10 +890,6 @@
 		716436181DC32776007A0F26 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				716436451DC32CF4007A0F26 /* iCocosTabButton.h */,
-				716436461DC32CF4007A0F26 /* iCocosTabButton.m */,
-				716436471DC32CF4007A0F26 /* iCocosTabView.h */,
-				716436481DC32CF4007A0F26 /* iCocosTabView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -952,6 +948,26 @@
 				716436621DC33CCB007A0F26 /* Single.h */,
 			);
 			path = Single;
+			sourceTree = "<group>";
+		};
+		716436631DC3589A007A0F26 /* ArchitectureNormal */ = {
+			isa = PBXGroup;
+			children = (
+				716436641DC3589A007A0F26 /* iCocosNormalTabBarController.h */,
+				716436651DC3589A007A0F26 /* iCocosNormalTabBarController.m */,
+				716436661DC3589A007A0F26 /* iCocosNormalTabBarButton.h */,
+				716436671DC3589A007A0F26 /* iCocosNormalTabBarButton.m */,
+				716436681DC3589A007A0F26 /* iCocosNormalTabBarView.h */,
+				716436691DC3589A007A0F26 /* iCocosNormalTabBarView.m */,
+			);
+			path = ArchitectureNormal;
+			sourceTree = "<group>";
+		};
+		7164366A1DC3589A007A0F26 /* ArchitectureSpecial */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ArchitectureSpecial;
 			sourceTree = "<group>";
 		};
 		EB6BFA1B8F00FD5138C712AF /* Pods */ = {
@@ -1104,7 +1120,6 @@
 				7103EE191DC2F8860050F2A0 /* UIAlertView+RACSignalSupport.m in Sources */,
 				7103EDDD1DC2F8860050F2A0 /* NSObject+RACPropertySubscribing.m in Sources */,
 				7103ECD91DC2F0D90050F2A0 /* main.m in Sources */,
-				716436491DC32CF4007A0F26 /* iCocosTabButton.m in Sources */,
 				7103EDFE1DC2F8860050F2A0 /* RACObjCRuntime.m in Sources */,
 				7103EE091DC2F8860050F2A0 /* RACSignalProvider.d in Sources */,
 				7103EE071DC2F8860050F2A0 /* RACSignal+Operations.m in Sources */,
@@ -1115,8 +1130,6 @@
 				7103EDF61DC2F8860050F2A0 /* RACEvent.m in Sources */,
 				7103EDF41DC2F8860050F2A0 /* RACEmptySignal.m in Sources */,
 				7103EE0E1DC2F8860050F2A0 /* RACSubscriber.m in Sources */,
-				7164364A1DC32CF4007A0F26 /* iCocosTabView.m in Sources */,
-				716436411DC32CDB007A0F26 /* iCocosTabBarController.m in Sources */,
 				7103EE0C1DC2F8860050F2A0 /* RACStringSequence.m in Sources */,
 				7103EE011DC2F8860050F2A0 /* RACReplaySubject.m in Sources */,
 				7103EDE41DC2F8860050F2A0 /* NSURLConnection+RACSupport.m in Sources */,
@@ -1137,6 +1150,7 @@
 				7103ECE51DC2F0D90050F2A0 /* iCocosLive.xcdatamodeld in Sources */,
 				7164365D1DC335E4007A0F26 /* HomeAddShowWebViewController.m in Sources */,
 				7103EDD61DC2F8860050F2A0 /* NSIndexSet+RACSequenceAdditions.m in Sources */,
+				716436731DC35951007A0F26 /* iCocosNavigationController.m in Sources */,
 				7103EE121DC2F8860050F2A0 /* RACTestScheduler.m in Sources */,
 				7103EE111DC2F8860050F2A0 /* RACTargetQueueScheduler.m in Sources */,
 				7103EDCF1DC2F8860050F2A0 /* EXTRuntimeExtensions.m in Sources */,
@@ -1155,6 +1169,7 @@
 				7103EE151DC2F8860050F2A0 /* RACUnarySequence.m in Sources */,
 				7164365A1DC3356C007A0F26 /* WZXLaunchViewController.m in Sources */,
 				7103EE1D1DC2F8860050F2A0 /* UIControl+RACSignalSupport.m in Sources */,
+				716436721DC35951007A0F26 /* iCocosMainViewController.m in Sources */,
 				7103EDE01DC2F8860050F2A0 /* NSSet+RACSequenceAdditions.m in Sources */,
 				7103EE201DC2F8860050F2A0 /* UIGestureRecognizer+RACSignalSupport.m in Sources */,
 				716436601DC33C13007A0F26 /* iCocosSwitchInterfaceHandler.m in Sources */,
@@ -1163,7 +1178,6 @@
 				7103EDEB1DC2F8860050F2A0 /* RACCompoundDisposable.m in Sources */,
 				7103EDE81DC2F8860050F2A0 /* RACBlockTrampoline.m in Sources */,
 				7103EE041DC2F8860050F2A0 /* RACScopedDisposable.m in Sources */,
-				7164364D1DC32CFF007A0F26 /* iCocosNavigationController.m in Sources */,
 				7103EE1A1DC2F8860050F2A0 /* UIBarButtonItem+RACCommandSupport.m in Sources */,
 				7103EDF91DC2F8860050F2A0 /* RACIndexSetSequence.m in Sources */,
 				716436441DC32CEA007A0F26 /* UITabBar+iCocosTabBarBadgeTips.m in Sources */,
@@ -1172,7 +1186,7 @@
 				7103EE101DC2F8860050F2A0 /* RACSubscriptionScheduler.m in Sources */,
 				7103EE0B1DC2F8860050F2A0 /* RACStream.m in Sources */,
 				7103EDE91DC2F8860050F2A0 /* RACChannel.m in Sources */,
-				716436541DC3344D007A0F26 /* iCocosMainViewController.m in Sources */,
+				7164366C1DC3589A007A0F26 /* iCocosNormalTabBarButton.m in Sources */,
 				7103EE261DC2F8860050F2A0 /* UISwitch+RACSignalSupport.m in Sources */,
 				7103EE271DC2F8860050F2A0 /* UITableViewCell+RACSignalSupport.m in Sources */,
 				7103EDD51DC2F8860050F2A0 /* NSFileHandle+RACSupport.m in Sources */,
@@ -1182,6 +1196,7 @@
 				7103EDF21DC2F8860050F2A0 /* RACEagerSequence.m in Sources */,
 				7103EDF51DC2F8860050F2A0 /* RACErrorSignal.m in Sources */,
 				7103EDE11DC2F8860050F2A0 /* NSString+RACKeyPathUtilities.m in Sources */,
+				7164366B1DC3589A007A0F26 /* iCocosNormalTabBarController.m in Sources */,
 				7103EDDF1DC2F8860050F2A0 /* NSOrderedSet+RACSequenceAdditions.m in Sources */,
 				7103EDEA1DC2F8860050F2A0 /* RACCommand.m in Sources */,
 				7103EE061DC2F8860050F2A0 /* RACSerialDisposable.m in Sources */,
@@ -1201,6 +1216,7 @@
 				7103EE221DC2F8860050F2A0 /* UIRefreshControl+RACCommandSupport.m in Sources */,
 				7164361F1DC327A9007A0F26 /* WSMovieController.m in Sources */,
 				7103EDD91DC2F8860050F2A0 /* NSObject+RACDeallocating.m in Sources */,
+				7164366D1DC3589A007A0F26 /* iCocosNormalTabBarView.m in Sources */,
 				7103EDFF1DC2F8860050F2A0 /* RACPassthroughSubscriber.m in Sources */,
 				7103EE021DC2F8860050F2A0 /* RACReturnSignal.m in Sources */,
 			);

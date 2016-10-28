@@ -23,7 +23,7 @@
     // 设置标题文字属性
     NSMutableDictionary *barAttrs = [NSMutableDictionary dictionary];
     barAttrs[NSFontAttributeName] = [UIFont boldSystemFontOfSize:16];
-    barAttrs[NSForegroundColorAttributeName] = [UIColor whiteColor];
+    barAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
     [self.navigationBar setTitleTextAttributes:barAttrs];
 }
 
@@ -45,7 +45,6 @@
     
     //控制器销毁的时候，必须移除通知，不然会产生意外的崩溃：通知满天飞
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-        
 }
 
 
