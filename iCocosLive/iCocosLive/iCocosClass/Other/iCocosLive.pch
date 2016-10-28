@@ -1,0 +1,88 @@
+//
+//  iCocosLive.pch
+//  iCocosLive
+//
+//  Created by tqy on 16/10/28.
+//  Copyright © 2016年 iCocos. All rights reserved.
+//
+
+#ifndef iCocosLive_pch
+#define iCocosLive_pch
+
+/**
+ *  Pods第三方
+ */
+#import <AFNetworking.h>
+#import <MJRefresh.h>
+#import <MJExtension.h>
+#import <MBProgressHUD.h>
+#import <Masonry.h>
+#import <SDImageCache.h>
+#import <FastImageCache.h>
+#import <YYKit.h>
+#import <AsyncDisplayKit.h>
+#import <JPEngine.h>
+#import <FMDB.h>
+#import <POP.h>
+#import <JKCategories.h>
+#import <PNChart.h>
+
+/**
+ *  引入第三方
+ */
+#import "ReactiveCocoa.h"
+
+/**
+ *  日志输出
+ */
+#ifdef DEBUG
+#define iCocosLog(format, ...) printf("\n[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String]);
+#else
+#define iCocosLog(format, ...)
+#endif
+
+/**
+ *  颜色
+ */
+#define iCocosARGBColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define iCocosColor(r, g, b) iCocosARGBColor((r), (g), (b), 255)
+#define iCocosRandomColor (random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256)))
+
+/**
+ * 屏幕尺寸
+ */
+#define iCocosScreenH [UIScreen mainScreen].bounds.size.height
+#define iCocosScreenW [UIScreen mainScreen].bounds.size.width
+
+/**
+ *  系统版本
+ */
+#define __ios10_0__ ([[UIDevice currentDevice].systemVersion floatValue] >= 10.0)
+#define __ios9_0__ ([[UIDevice currentDevice].systemVersion floatValue] >= 9.0)
+#define __ios8_0__ ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0)
+
+/**随机0~Int的整数*/
+#define AYRandInt(Int) arc4random_uniform(Int+1)
+
+
+/**
+ *  @weak、@strong引用
+ */
+#ifndef weakify
+#if DEBUG
+#if __has_feature(objc_arc)
+#define weakify(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
+#else
+#define weakify(object) autoreleasepool{} __block __typeof__(object) block##_##object = object;
+#endif
+#else
+#if __has_feature(objc_arc)
+#define weakify(object) try{} @finally{} {} __weak __typeof__(object) weak##_##object = object;
+#else
+#define weakify(object) try{} @finally{} {} __block __typeof__(object) block##_##object = object;
+#endif
+#endif
+#endif
+
+
+#endif /* iCocosLive_pch */
